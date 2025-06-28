@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    color: #f7f2f2;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    /* margin-bottom: 5px; */
+    background:linear-gradient(to right, red,rgb(6, 80, 219));
+}
+main{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background:linear-gradient(red,yellow);
+}
+#input{
+    border: none;
+    background: #f7f2f2;
+    height: 20px;
+    padding: 20px;
+    text-align: left;
+    text-transform: capitalize ;
+    margin-bottom: .7rem;
+    border-radius: 5px;
+}
+
+#output{
+    border: none;
+    width: 50%;
+    height: 20px;
+     /* background-color: #ffffff; */
+}
+#input , #input-view:focus{
+    outline: none;
+}

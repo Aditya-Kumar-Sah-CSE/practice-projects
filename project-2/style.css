@@ -1,0 +1,49 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+header {
+color: #f7f2f2;
+    width: 100%;
+    height: 2.5rem;
+    text-align: center;
+    text-transform: capitalize;
+    /* margin-bottom: 5px; */
+    background:linear-gradient(to right, red,rgb(6, 80, 219));
+}
+main{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background:linear-gradient(red,yellow);
+}
+.container{
+    cursor: pointer;
+}
+
+span{
+    font-size: 5rem;
+    color: blue;
+    font-weight: bolder;
+    line-height: 1;
+    display: inline-block;
+    /* each span block */
+}
+
+span.active{
+    animation: jump 2s ease-in-out;
+}
+
+@keyframes jump {
+    0% {
+        transform: translate(0,0) rotate(180deg);
+    }
+    
+    100%{
+        transform: scale(2) translate(0,-8rem);
+    }
+}

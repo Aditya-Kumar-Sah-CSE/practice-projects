@@ -92,9 +92,9 @@ if (checkedAns === null) {
 alert("Please Select an answer  ")
     
 } else {
-    var x =checkedAns.nextSibling.textContent;
-    console.log(x)
-    console.log(checkedAns.nextSibling.textContent)
+    // var x =checkedAns.nextSibling.textContent;
+    // console.log(x)
+    // console.log(checkedAns.nextSibling.textContent)
     if(checkedAns.nextSibling.textContent === quiz[currentQuestion].answer){
         score++;
     }
@@ -108,13 +108,10 @@ option_c.textContent = quiz[currentQuestion].option3;
 option_d.textContent = quiz[currentQuestion].option4;
 // next question me checked na ho
 checkedAns.checked = false;
-
 }
 else{
-    alert(`your score is : ${score} out of ${quiz.length}`+ score);
+    alert(`your score is : ${score} out of ${quiz.length}`);
     location.reload();
-
 }
 }
-
 });

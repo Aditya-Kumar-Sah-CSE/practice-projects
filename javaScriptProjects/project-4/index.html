@@ -7,30 +7,51 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header>
-        <h1>password generator</h1>
-    </header>
-    <main>
-        <div class="container">
-
-<div class="header">
-    <h2 id="heading">password generator</h2>
-</div>
-<div class="input-field">
-    <input type="text" id="input">
-    <button type="text">copy</button>
-</div>
-<div class="choice">
-   <div class="input"><label for=""></label></div>
-   <div class="input"><label for=""></label></div>
-   <div class="input"><label for=""></label></div>
-   <div class="input"><label for=""></label></div>
-</div> <label for="" >length of password</label>
-    <input type="range" max="15" min="4" value="">
-
+<body>    
+<div class="container">
+    <div class="header">
+        <h2 id="heading">password generator</h2>
+    </div>
+    <div class="contain">        
+            <div class="display">
+            <input type="text" id="input" placeholder="Password">
+            <button type="text" id="copy">copy</button>
         </div>
-    </main>
+    <div class="setting">
+        <div> <label for="" id="label-length" >length of password</label>
+        <input type="number" max="20" min="4"  step="1" value="10" id="input-length">
+        </div>
+        <br>
+        <div class="input">
+            <label id="label-uppercase"for="">Upper Case</label>
+            <input type="checkbox" checked id="input-uppercase">
+        </div>
+        <div class="input">
+        <label id="label-lowercase"for="">lower Case</label>
+        <input type="checkbox" checked id="input-lowercase">
+        </div>
+        <div class="input">
+        <label id="label-number"for="">Number</label>
+        <input type="checkbox" checked id="input-number">
+        </div>
+        <div class="input">
+        <label id="label-symbol"for="">Symbol</label>
+        <input type="checkbox" checked id="input-symbol">
+        </div>
+        <div class="generate-btn">
+        <button id="generate">
+            Generate
+        </button>
+         </div>
+    </div>
+    
+</div>
+</div>
+
+        
+        
+
+    
 
     <script src="main.js"></script>
 </body>

@@ -1,0 +1,25 @@
+h1{
+    width: 100%;
+    font-weight: 35rem;
+    background: linear-gradient(blue,pink);
+    font-size: 4rem;
+    text-transform: capitalize;
+    /* margin: 0.6rem; */
+    margin-bottom: 1.2px;
+    
+}
+.todo-container{
+   
+    background: linear-gradient(red,rgb(4, 232, 57));
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+input {
+    width: 100%;
+}
+items-container {
+    text-align: left;
+}

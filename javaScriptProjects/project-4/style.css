@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(red,yellow);
+}
+ .container{
+    width: 50%;
+    border-radius: 10px;
+    /* border: 1px solid black; */
+   
+    background:linear-gradient(rgb(247, 198, 235),rgb(205, 156, 231));
+      box-shadow: 0 0 10px rgba(2, 228, 40, 0.896);
+      position: relative;
+}
+
+
+h2{
+    text-transform: capitalize;
+    color: white;
+    width: 100%;
+    text-align: center;
+    background-color: blueviolet;
+    border-radius: 10px 10px 0 0;
+    padding: 0.6rem;
+    /* margin-bottom: 0.7rem; */
+}
+
+.display{
+   position: relative;
+    margin-bottom: 0.6rem; 
+}
+#input{
+     width: 100%;
+     border: none;
+     outline: none;
+     padding: 0.6rem;
+     font-size: larger;
+     font-weight: bold;
+}
+#input-symbol{
+    margin-bottom: 2rem;
+}
+#copy{
+    margin-right: 3rem;
+    word-wrap: break-word;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+font-size: large;
+width: 15%;
+padding: 0.6rem;
+background: #31ea27;
+color: #f8f8f8;
+border-radius: 12px;
+font-weight: bold;
+}
+.setting div{
+    padding: 20px;
+    display: block;
+   
+}
+
+
+.setting label{
+     
+   
+    float: left;
+}
+.setting input{
+    float: right;
+}
+#generate{
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: none;
+    background-color: blueviolet;
+    border-radius: 0 0 10px 10px;
+    cursor: pointer;
+    padding: 0.3rem;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}

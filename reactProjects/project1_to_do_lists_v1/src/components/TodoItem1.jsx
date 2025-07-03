@@ -2,7 +2,7 @@ function TodoItem1(){
 let todoName= "First React App-todo list "
 let todoDate ="30/06/2025"
     return (
-<div class="container text-center">
+<div class="container">
 <div class="row">
     <div class="col-6">
     
